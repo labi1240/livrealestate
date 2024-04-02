@@ -1,7 +1,7 @@
 "use client";
 import React, { Fragment, FC } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import Checkbox from "@/shared/Checkbox";
+import Checkbox from "@/app/shared/Checkbox";
 import { ClassOfProperties } from "../../type";
 import { HomeIcon } from "@heroicons/react/24/outline";
 

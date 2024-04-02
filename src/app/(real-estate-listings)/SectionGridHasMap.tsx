@@ -4,11 +4,11 @@ import React, { FC, useState } from "react";
 import AnyReactComponent from "@/components/AnyReactComponent/AnyReactComponent";
 import GoogleMapReact from "google-map-react";
 import { DEMO_STAY_LISTINGS } from "@/data/listings";
-import ButtonClose from "@/shared/ButtonClose";
-import Checkbox from "@/shared/Checkbox";
-import Pagination from "@/shared/Pagination";
+import ButtonClose from "@/app/shared/ButtonClose";
+import Checkbox from "@/app/shared/Checkbox";
+import Pagination from "@/app/shared/Pagination";
 import TabFilters from "./TabFilters";
-import Heading2 from "@/shared/Heading2";
+import Heading2 from "@/app/shared/Heading2";
 import PropertyCardH from "@/components/PropertyCardH";
 
 const DEMO_EXPERIENCES = DEMO_STAY_LISTINGS.filter((_, i) => i < 12);

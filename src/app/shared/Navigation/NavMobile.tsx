@@ -1,15 +1,15 @@
 "use client";
 
 import React from "react";
-import ButtonClose from "@/shared/ButtonClose";
-import Logo from "@/shared/Logo";
+import ButtonClose from "@/app/shared/ButtonClose";
+import Logo from "@/app/shared/Logo";
 import { Disclosure } from "@headlessui/react";
 import { NavItemType } from "./NavigationItem";
 import { NAVIGATION_DEMO } from "@/data/navigation";
-import ButtonPrimary from "@/shared/ButtonPrimary";
-import SocialsList from "@/shared/SocialsList";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
+import SocialsList from "@/app/shared/SocialsList";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import SwitchDarkMode from "@/shared/SwitchDarkMode";
+import SwitchDarkMode from "@/app/shared/SwitchDarkMode";
 import Link from "next/link";
 import LangDropdown from "@/app/(client-components)/(Header)/LangDropdown";
 

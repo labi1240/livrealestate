@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import ButtonSecondary from "@/shared/ButtonSecondary";
+import ButtonSecondary from "@/app/shared/ButtonSecondary";
 import Link from "next/link";
 import Image from "next/image";
 

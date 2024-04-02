@@ -8,7 +8,7 @@ import SectionHero2ArchivePage from "../(server-components)/SectionHero2ArchiveP
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="nc-ListingRealEstateMapPage">
-      <div className="container pb-24 lg:pb-28">
+      <div className="container pb-02 lg:pb-20">
         <SectionHero2ArchivePage />
       </div>
 
@@ -16,7 +16,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
 
       <div className="container overflow-hidden">
         {/* SECTION 1 */}
-        <div className="relative py-16">
+        <div className="relative py-6">
           <BackgroundSection />
           <SectionSliderNewCategories
             heading="Explore by types of stays"

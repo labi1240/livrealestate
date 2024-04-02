@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import { AuthorType } from "@/data/types";
 import { StarIcon } from "@heroicons/react/24/solid";
-import Avatar from "@/shared/Avatar";
-import Badge from "@/shared/Badge";
+import Avatar from "@/app/shared/Avatar";
+import Badge from "@/app/shared/Badge";
 import Link from "next/link";
 
 export interface CardAuthorBoxProps {

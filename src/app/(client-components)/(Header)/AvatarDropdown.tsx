@@ -1,7 +1,7 @@
 import { Popover, Transition } from "@headlessui/react";
 import { Fragment } from "react";
-import Avatar from "@/shared/Avatar";
-import SwitchDarkMode2 from "@/shared/SwitchDarkMode2";
+import Avatar from "@/app/shared/Avatar";
+import SwitchDarkMode2 from "@/app/shared/SwitchDarkMode2";
 import Link from "next/link";
 interface Props {
   className?: string;

@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import Logo from "@/shared/Logo";
-import MenuBar from "@/shared/MenuBar";
+import Logo from "@/app/shared/Logo";
+import MenuBar from "@/app/shared/MenuBar";
 import LangDropdown from "./LangDropdown";
 import NotifyDropdown from "./NotifyDropdown";
 import AvatarDropdown from "./AvatarDropdown";

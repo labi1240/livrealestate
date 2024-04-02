@@ -2,10 +2,10 @@
 
 import React, { Fragment, useState } from "react";
 import { Dialog, Popover, Transition } from "@headlessui/react";
-import ButtonPrimary from "@/shared/ButtonPrimary";
-import ButtonThird from "@/shared/ButtonThird";
-import ButtonClose from "@/shared/ButtonClose";
-import Checkbox from "@/shared/Checkbox";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
+import ButtonThird from "@/app/shared/ButtonThird";
+import ButtonClose from "@/app/shared/ButtonClose";
+import Checkbox from "@/app/shared/Checkbox";
 import convertNumbThousand from "@/utils/convertNumbThousand";
 import Slider from "rc-slider";
 import NcInputNumber from "@/components/NcInputNumber";

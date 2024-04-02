@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { PostDataType } from "@/data/types";
 import PostCardMeta from "@/components/PostCardMeta";
 import PostTypeFeaturedIcon from "@/components/PostTypeFeaturedIcon";
-import SocialsShare from "@/shared/SocialsShare";
+import SocialsShare from "@/app/shared/SocialsShare";
 import { DEMO_POSTS } from "@/data/posts";
 import Link from "next/link";
 import Image from "next/image";

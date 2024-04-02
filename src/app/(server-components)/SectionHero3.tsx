@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import imagePng from "@/images/travelhero2.png";
 import Image from "next/image";
-import ButtonPrimary from "@/shared/ButtonPrimary";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
 
 export interface SectionHero3Props {
   className?: string;

@@ -23,7 +23,7 @@
       "@/components/*": ["./src/components/*"],
       "@/database/*": ["./src/lib/database/*"],
       "@/data/*": ["./src/data/*"],
-      "@/shared/*": ["./src/components/shared/*"],
+      "@/shared/*": ["./src/app/shared/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/contains/contants/*": ["./src/contains/contants/*"],
       "@@/images/*": ["./src/images/*"],

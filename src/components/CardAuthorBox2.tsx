@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { AuthorType } from "@/data/types";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
-import Avatar from "@/shared/Avatar";
+import Avatar from "@/app/shared/Avatar";
 import convertNumbThousand from "@/utils/convertNumbThousand";
 import Link from "next/link";
 import Image from "next/image";

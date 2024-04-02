@@ -1,9 +1,9 @@
 import React, { FC } from "react";
 import { DEMO_STAY_LISTINGS } from "@/data/listings";
 import { StayDataType } from "@/data/types";
-import Pagination from "@/shared/Pagination";
+import Pagination from "@/app/shared/Pagination";
 import TabFilters from "./TabFilters";
-import Heading2 from "@/shared/Heading2";
+import Heading2 from "@/app/shared/Heading2";
 import PropertyCardH from "@/components/PropertyCardH";
 
 export interface SectionGridFilterCardProps {

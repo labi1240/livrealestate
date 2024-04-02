@@ -1,10 +1,10 @@
 import React, { FC } from "react";
-import Logo from "@/shared/Logo";
-import Navigation from "@/shared/Navigation/Navigation";
+import Logo from "@/app/shared/Logo";
+import Navigation from "@/app/shared/Navigation/Navigation";
 import SearchDropdown from "./SearchDropdown";
-import ButtonPrimary from "@/shared/ButtonPrimary";
-import MenuBar from "@/shared/MenuBar";
-import SwitchDarkMode from "@/shared/SwitchDarkMode";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
+import MenuBar from "@/app/shared/MenuBar";
+import SwitchDarkMode from "@/app/shared/SwitchDarkMode";
 import HeroSearchForm2MobileFactory from "../(HeroSearchForm2Mobile)/HeroSearchForm2MobileFactory";
 import LangDropdown from "./LangDropdown";
 

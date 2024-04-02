@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import ButtonPrimary from "@/shared/ButtonPrimary";
-import Input from "@/shared/Input";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
+import Input from "@/app/shared/Input";
 
 export interface PageAddListing5Props {}
 

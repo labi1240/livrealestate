@@ -5,7 +5,7 @@ import { TaxonomyType } from "@/data/types";
 import CardCategory3 from "@/components/CardCategory3";
 import CardCategory4 from "@/components/CardCategory4";
 import CardCategory5 from "@/components/CardCategory5";
-import Heading from "@/shared/Heading";
+import Heading from "@/app/shared/Heading";
 import { AnimatePresence, motion, MotionConfig } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
 import PrevBtn from "./PrevBtn";

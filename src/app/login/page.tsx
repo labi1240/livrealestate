@@ -6,34 +6,57 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 
 
-
-
-
 export default function LoginPage() {
     const router = useRouter();
     const [user, setUser] = React.useState({
         email: "",
         password: "",
-       
-    })
+    });
     const [buttonDisabled, setButtonDisabled] = React.useState(false);
     const [loading, setLoading] = React.useState(false);
-
 
     const onLogin = async () => {
         try {
             setLoading(true);
-            const response = await axios.post("/api/users/login", user);
+            const response = await axios.post("/api/users/login", user, { withCredentials: true });
             console.log("Login success", response.data);
             toast.success("Login success");
+            // Save the token in local storage or context for future requests
+            localStorage.setItem('authToken', response.data.token);
             router.push("/profile");
-        } catch (error:any) {
-            console.log("Login failed", error.message);
-            toast.error(error.message);
-        } finally{
-        setLoading(false);
+        } catch (error: any) {
+            console.log("Login failed", error.response.data.error);
+            toast.error(error.response.data.error);
+        } finally {
+            setLoading(false);
         }
     }
+
+
+// export default function LoginPage() {
+//     const router = useRouter();
+//     const [user, setUser] = React.useState({
+//         email: "",
+//         password: "",
+//     })
+//     const [buttonDisabled, setButtonDisabled] = React.useState(false);
+//     const [loading, setLoading] = React.useState(false);
+
+
+//     const onLogin = async () => {
+//         try {
+//             setLoading(true);
+//             const response = await axios.post("/api/users/login", user);
+//             console.log("Login success", response.data);
+//             toast.success("Login success");
+//             router.push("/profile");
+//         } catch (error:any) {
+//             console.log("Login failed", error.message);
+//             toast.error(error.message);
+//         } finally{
+//         setLoading(false);
+//         }
+//     }
 
     useEffect(() => {
         if(user.email.length > 0 && user.password.length > 0) {

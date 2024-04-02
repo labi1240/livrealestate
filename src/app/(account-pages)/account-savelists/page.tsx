@@ -10,7 +10,7 @@ import {
   DEMO_STAY_LISTINGS,
 } from "@/data/listings";
 import React, { Fragment, useState } from "react";
-import ButtonSecondary from "@/shared/ButtonSecondary";
+import ButtonSecondary from "@/app/shared/ButtonSecondary";
 
 const AccountSavelists = () => {
   let [categories] = useState(["Stays", "Experiences", "Cars"]);

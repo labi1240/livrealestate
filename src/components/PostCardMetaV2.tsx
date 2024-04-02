@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Avatar from "@/shared/Avatar";
+import Avatar from "@/app/shared/Avatar";
 import { PostDataType } from "@/data/types";
 import Link from "next/link";
 

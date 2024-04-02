@@ -5,8 +5,8 @@ import { ExperiencesDataType } from "@/data/types";
 import StartRating from "@/components/StartRating";
 import BtnLikeIcon from "@/components/BtnLikeIcon";
 import SaleOffBadge from "@/components/SaleOffBadge";
-import Badge from "@/shared/Badge";
-import Avatar from "@/shared/Avatar";
+import Badge from "@/app/shared/Badge";
+import Avatar from "@/app/shared/Avatar";
 import Link from "next/link";
 
 export interface ExperiencesCardHProps {

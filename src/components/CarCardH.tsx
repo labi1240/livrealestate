@@ -4,8 +4,8 @@ import { CarDataType } from "@/data/types";
 import StartRating from "@/components/StartRating";
 import BtnLikeIcon from "@/components/BtnLikeIcon";
 import SaleOffBadge from "@/components/SaleOffBadge";
-import Badge from "@/shared/Badge";
-import Avatar from "@/shared/Avatar";
+import Badge from "@/app/shared/Badge";
+import Avatar from "@/app/shared/Avatar";
 import Image from "next/image";
 import Link from "next/link";
 

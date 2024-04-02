@@ -2,7 +2,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { Fragment } from "react";
 import { NAVIGATION_DEMO_2 } from "@/data/navigation";
-import { NavItemType } from "@/shared/Navigation/NavigationItem";
+import { NavItemType } from "@/app/shared/Navigation/NavigationItem";
 import Link from "next/link";
 import Collection from "@/components/Collection";
 

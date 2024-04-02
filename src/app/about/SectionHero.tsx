@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React, { FC, ReactNode } from "react";
-import ButtonPrimary from "@/shared/ButtonPrimary";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
 
 export interface SectionHeroProps {
   className?: string;

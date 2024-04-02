@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-import Heading from "@/shared/Heading";
+import Heading from "@/app/shared/Heading";
 import { DEMO_POSTS } from "@/data/posts";
 import { PostDataType } from "@/data/types";
-import Pagination from "@/shared/Pagination";
-import ButtonPrimary from "@/shared/ButtonPrimary";
+import Pagination from "@/app/shared/Pagination";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
 import WidgetTags from "./WidgetTags";
 import WidgetCategories from "./WidgetCategories";
 import WidgetPosts from "./WidgetPosts";

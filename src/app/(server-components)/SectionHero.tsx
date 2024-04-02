@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import imagePng from "@/images/hero-right.png";
 import HeroSearchForm from "../(client-components)/(HeroSearchForm)/HeroSearchForm";
 import Image from "next/image";
-import ButtonPrimary from "@/shared/ButtonPrimary";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
 
 export interface SectionHeroProps {
   className?: string;

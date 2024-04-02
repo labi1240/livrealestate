@@ -1,8 +1,8 @@
 "use client";
 
-import Heading from "@/shared/Heading";
-import NcPlayIcon from "@/shared/NcPlayIcon";
-import NcPlayIcon2 from "@/shared/NcPlayIcon2";
+import Heading from "@/app/shared/Heading";
+import NcPlayIcon from "@/app/shared/NcPlayIcon";
+import NcPlayIcon2 from "@/app/shared/NcPlayIcon2";
 import Image from "next/image";
 import React, { FC, useState } from "react";
 

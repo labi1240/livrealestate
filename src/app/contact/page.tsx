@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 import SectionSubscribe2 from "@/components/SectionSubscribe2";
-import SocialsList from "@/shared/SocialsList";
+import SocialsList from "@/app/shared/SocialsList";
 import Label from "@/components/Label";
-import Input from "@/shared/Input";
-import Textarea from "@/shared/Textarea";
-import ButtonPrimary from "@/shared/ButtonPrimary";
+import Input from "@/app/shared/Input";
+import Textarea from "@/app/shared/Textarea";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
 
 export interface PageContactProps {}
 

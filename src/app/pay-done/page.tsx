@@ -1,6 +1,6 @@
 import StartRating from "@/components/StartRating";
 import React, { FC } from "react";
-import ButtonPrimary from "@/shared/ButtonPrimary";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
 import Image from "next/image";
 
 export interface PayPageProps {}

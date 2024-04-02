@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Checkbox from "@/shared/Checkbox";
+import Checkbox from "@/app/shared/Checkbox";
 
 export interface PageAddListing4Props {}
 

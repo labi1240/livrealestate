@@ -4,7 +4,7 @@ import HIW2img from "@/images/HIW2.png";
 import HIW3img from "@/images/HIW3.png";
 import VectorImg from "@/images/VectorHIW.svg";
 import Image, { StaticImageData } from "next/image";
-import Heading from "@/shared/Heading";
+import Heading from "@/app/shared/Heading";
 
 export interface SectionHowItWorkProps {
   className?: string;

@@ -6,11 +6,11 @@ import "rc-slider/assets/index.css";
 import Footer from "@/components/Footer";
 import FooterNav from "@/components/FooterNav";
 import { Metadata } from "next";
-
+import NavBar from "@/components/navigation";
 
 
 export const metadata: Metadata = {
-  title: "Chisfis - Booking online React Next Template",
+  title: "My ShadwithMONGO PROJECT",
   description: "Booking online & rental online React Next Template",
   keywords: "Chisfis, Booking online, React Next Template",
   viewport:
@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white text-base dark:bg-neutral-900 text-neutral-900 dark:text-neutral-200">
         <ClientCommons />
+        {/* < NavBar /> */}
         <SiteHeader />
         {children}
         <FooterNav />

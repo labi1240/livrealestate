@@ -12,9 +12,9 @@ import {
   DEMO_STAY_LISTINGS,
 } from "@/data/listings";
 import React, { FC, Fragment, useState } from "react";
-import Avatar from "@/shared/Avatar";
-import ButtonSecondary from "@/shared/ButtonSecondary";
-import SocialsList from "@/shared/SocialsList";
+import Avatar from "@/app/shared/Avatar";
+import ButtonSecondary from "@/app/shared/ButtonSecondary";
+import SocialsList from "@/app/shared/SocialsList";
 
 export interface AuthorPageProps {}
 

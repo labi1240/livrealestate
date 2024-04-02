@@ -1,6 +1,6 @@
 "use client";
 
-import Heading from "@/shared/Heading";
+import Heading from "@/app/shared/Heading";
 import React, { FC, useState } from "react";
 import clientSayMain from "@/images/clientSayMain.png";
 import clientSay1 from "@/images/clientSay1.png";

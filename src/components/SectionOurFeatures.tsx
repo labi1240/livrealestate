@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import rightImgPng from "@/images/our-features.png";
 import Image, { StaticImageData } from "next/image";
-import Badge from "@/shared/Badge";
+import Badge from "@/app/shared/Badge";
 
 export interface SectionOurFeaturesProps {
   className?: string;

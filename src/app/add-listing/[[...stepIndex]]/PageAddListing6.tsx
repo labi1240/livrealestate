@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Textarea from "@/shared/Textarea";
+import Textarea from "@/app/shared/Textarea";
 
 export interface PageAddListing6Props {}
 

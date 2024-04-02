@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import React, { useEffect, useRef } from "react";
 import { PathName } from "@/routers/types";
-import MenuBar from "@/shared/MenuBar";
+import MenuBar from "@/app/shared/MenuBar";
 import isInViewport from "@/utils/isInViewport";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

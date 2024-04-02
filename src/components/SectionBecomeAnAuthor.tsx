@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import rightImgDemo from "@/images/BecomeAnAuthorImg.png";
-import ButtonPrimary from "@/shared/ButtonPrimary";
-import Logo from "@/shared/Logo";
+import ButtonPrimary from "@/app/shared/ButtonPrimary";
+import Logo from "@/app/shared/Logo";
 import Image from "next/image";
 
 export interface SectionBecomeAnAuthorProps {

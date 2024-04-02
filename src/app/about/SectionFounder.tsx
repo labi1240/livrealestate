@@ -1,4 +1,4 @@
-import Heading from "@/shared/Heading";
+import Heading from "@/app/shared/Heading";
 import Image from "next/image";
 import React from "react";
 

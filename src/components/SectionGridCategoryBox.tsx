@@ -1,5 +1,5 @@
 import CardCategoryBox1 from "@/components/CardCategoryBox1";
-import Heading from "@/shared/Heading";
+import Heading from "@/app/shared/Heading";
 import { TaxonomyType } from "@/data/types";
 import React from "react";
 
